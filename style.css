@@ -82,8 +82,13 @@
 }
 
 .rhero {
-    height: 800px;
+    height: 600px;
     width: 40%;
+}
+
+.camera {
+    height: 500px;
+    width: 100%;
 }
 
 .sponsors {
@@ -123,11 +128,8 @@
 .card {
     height: 420px;
     width: 300px;
-    border: 2px solid black;
     padding: 10px;
 }
-
-.image {}
 
 .mtitle {
     font-size: 1.3rem;
@@ -176,6 +178,15 @@
 .fright {
     width: 45%;
     padding-top: 30px;
+}
+
+.fleft {
+    width: 90%;
+}
+
+.fimg {
+    height: 400px;
+    width: 60%;
 }
 
 .ftitle {
@@ -235,4 +246,57 @@
 
 .icon {
     color: white;
+}
+
+@media screen and (max-width: 580px) {
+    .header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .rhome ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .hero {
+        /* flex-direction: column; */
+        /* height: 970px; */
+    }
+    .rhero {
+        padding-left: 80px;
+    }
+    .camera {
+        width: 100%;
+    }
+    .main {
+        margin-top: 40px;
+        height: 4200px;
+    }
+    .maintitle {
+        padding-right: 30px;
+    }
+    .sponsors {
+        height: 300px;
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+    }
+    .features {
+        height: 600px;
+    }
+    .feature {
+        flex-direction: column;
+    }
+    .fright {
+        width: 70%;
+    }
+    .fimg {
+        height: 250px;
+        width: 100%;
+        padding-left: 20px;
+    }
 }
