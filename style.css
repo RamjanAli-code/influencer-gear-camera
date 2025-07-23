@@ -1,4 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar {
+    height: 1000px;
+    width: 100%;
+}
+
+.header {
+    height: 150px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ltitle {
+    color: rgb(58, 58, 58);
+}
+
+.rhome ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: rgb(58, 58, 58);
+    align-items: center;
+    text-align: center;
+}
+
+.rhome ul li {
+    list-style: none;
+    /* align-items: center; */
+}
+
+.itm {
+    padding-right: 10px;
+}
+
+.hero {
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lhero {
+    padding-top: 65px;
+    width: 40%;
+}
+
+.htitle {
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.hdescription {
+    color: rgb(58, 58, 58);
+    margin: top 20px;
+    ;
+}
+
+.hbtn {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 190px;
+    border-radius: 8px;
+    background: rgb(224, 44, 109);
+}
+
+.hbtn i {
+    padding-left: 5px;
+}
+
+.rhero {
+    height: 800px;
+    width: 40%;
+}
+
+.sponsors {
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.main {
+    height: 1500px;
+    width: 100%;
+}
+
+.mainsec {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.maintitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    height: 420px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.image {}
+
+.mtitle {
+    font-size: 1.3rem;
+}
+
+.amount {
+    padding-top: 8px;
+    font-size: 1.1rem;
+    color: rgb(58, 58, 58);
+}
+
+.number {
+    color: rgb(58, 58, 58);
+    font-size: .8rem;
+    align-items: center;
+    padding-top: 13px;
+}
+
+.carddescription {
+    font-size: .8rem;
+    color: rgb(58, 58, 58);
+}
+
+.star {
+    height: 40px;
+    width: 60px;
+}
+
+.rating {
+    display: flex;
+}
+
+.features {
+    height: 370px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.feature {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fright {
+    width: 45%;
+    padding-top: 30px;
+}
+
+.ftitle {
+    font-size: 2.5rem;
+}
+
+.fdescription {
+    color: rgb(58, 58, 58);
+    padding-top: 10px;
+}
+
+.fbtn {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 190px;
+    background: rgb(224, 44, 109);
+}
+
+.fbtn i {
+    padding-left: 10px;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    background: rgb(10, 8, 38);
+}
+
+.footersec {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 190px;
+    width: 40%;
+    margin: 150px auto;
+    padding: 60px;
+}
+
+.footertitle {
+    color: white;
+    font-weight: 600;
+    font-size: 2.0rem;
+    padding-bottom: 10px;
+}
+
+.copy {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.footersec p {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.icon {
+    color: white;
 }
